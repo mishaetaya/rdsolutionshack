@@ -181,7 +181,9 @@ header h2 span a{
 }
 .footerwrap p{
 		text-align: center;
-		padding-top:15px;
+/*		padding-top:15px;
+*/		position:relative;
+		top:15px;
 		color:white;
 		font-weight: bolder;
 		
