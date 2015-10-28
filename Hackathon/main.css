@@ -1,0 +1,194 @@
+/**{
+	border:1px solid black;
+}
+*/
+/*body{
+	margin:0;
+}
+
+*/
+body{
+	font-family:  NexusSans,"Helvetica Neue",Helvetica,Arial,sans-serif
+}
+
+#topNav{
+	text-align: center;
+	border-bottom:1px solid gray;
+	padding-bottom:1%;
+	padding-top:1%;
+}
+
+header{
+	text-align: center;
+	background-image: url('HiRes.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-size: 50% 80%;
+	height:600px;
+	border-bottom:1px solid gray;
+	margin-bottom:2%;
+	background-position: center;
+}
+
+header h1{
+	position:relative;
+	top:20px;
+	color:#e9711c;
+}
+
+header h2{
+	position:relative;
+	top:490px;
+	color:#007398;
+}
+
+header h2 span a{
+	text-decoration: none;
+	color:#007398;
+	font-style: italic;
+}
+
+.description{
+/*	border:1px solid red;
+*/	margin: 0 auto;
+	width:95%;
+	margin-bottom:2%;
+}
+
+/*.container{
+	border:1px solid black;
+	display:inline-block;
+}
+*/
+
+
+.container h3{
+	color:#007398;
+}
+
+/*.container:nth-child(n+2){
+	margin-top:2%;
+}
+*/
+.container p, .container ul{
+	color:gray;
+	font-weight: lighter;
+	font-size: 14px;
+}
+
+.container ul li{
+
+	line-height: 30px;
+}
+
+.topics{
+	margin: 0 auto;
+/*	border:1px solid black;
+*/	width:80%;
+
+}
+
+.topics h2, .topics h3{
+	text-align: center;
+	color:#007398;
+	line-height: 10px;
+}
+
+.topics h3{
+	margin-bottom:100px;
+}
+
+.topicContainer{
+	width:32%;
+	display:inline-block;
+/*	border:1px solid blue;
+*/	position:relative;
+	margin-left:0.5%;
+	vertical-align: top;
+}
+
+
+.topicContainer h3{
+	text-align: center;
+	font-size: 14px;
+	color: #007398;
+	line-height: 25px;
+	margin-bottom:-5px;
+
+}
+
+.topicContainer p{
+	color:gray;
+	font-size: 12px;
+	text-align: justify;
+	width: 90%;
+	margin:10px auto;
+}
+
+.topicSelection_1, .topicSelection_2, .topicSelection_3{
+	width:200px;
+	height:200px;
+	border-radius: 100px;
+	border:1px solid gray;
+	margin: 0 auto;
+	color:white;	
+}
+
+.topicSelection_1:hover, .topicSelection_2:hover, .topicSelection_3:hover{
+	border:2px solid #e9711c;
+/*	background-color:rgba(255,180,0,0.2);
+*/}
+
+.topicSelection_1{
+	background-image: url('community.png');
+	background-position: center;
+	background-size:60% 60%;
+	background-repeat: no-repeat;
+}
+
+.topicSelection_2{
+	background-image: url('launch.png');
+	background-position: center;
+	background-size:60% 60%;
+	background-repeat: no-repeat;
+}
+
+.topicSelection_3{
+	background-image: url('iot.jpg');
+	background-position: center;
+	background-size:100% 60%;
+	background-repeat: no-repeat;
+}
+
+.submission{
+	border-top:1px solid gray;
+	text-align: center;
+	margin-bottom:2%;
+	color:#007398;
+	margin-top:2%;
+}
+
+.submission h2{
+		margin-top:5%;
+
+}
+
+
+	
+.footerwrap{
+	background-color: #e9711c;
+	height: 50px;
+}
+.footerwrap p{
+		text-align: center;
+		padding-top:15px;
+		color:white;
+		font-weight: bolder;
+		
+}
+
+ .footerwrap span a{
+	text-decoration: none;
+	color:white;
+	border-bottom:1px dashed blue;
+}
