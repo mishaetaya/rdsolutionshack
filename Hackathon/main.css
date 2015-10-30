@@ -71,8 +71,7 @@ header h2 span a{
 }
 */
 .container p, .container ul{
-	color:gray;
-	font-weight: lighter;
+	color:black;
 	font-size: 14px;
 }
 

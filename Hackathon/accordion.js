@@ -76,9 +76,20 @@ $('.acc2').click(function(){
 })
 
 $('.acc3').click(function(){
-	var temp = $('.acc3 .plusicon').html();
-	if (temp == '+'){
-		$('.acc3 .plusicon').text("-");	
-	} else{$('.acc3 .plusicon').text("+");}
+	// var temp = $('.acc3 .plusicon').html();
+	// if (temp == '+'){
+	// 	$('.acc3 .plusicon').text("-");	
+	// } else{$('.acc3 .plusicon').text("+");}
+
+	$(".acc3 .plusicon").rotate({bind:{
+  		click: function(){
+    $(this).rotate({
+      angle: 0,
+      animateTo:90
+      })
+    }
+  }
+});
 	
 })
+
