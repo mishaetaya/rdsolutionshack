@@ -60,18 +60,22 @@ switchAccordion = function(e) {
 })();
 
 $('.acc1').click(function(){
-	var temp = $('.acc1 .plusicon').html();
-	if (temp == '+'){
-		$('.acc1 .plusicon').text("-");	
-	} else{$('.acc1 .plusicon').text("+");}
+	// var temp = $('.acc1 .plusicon').html();
+	// if (temp == '+'){
+	// 	$('.acc1 .plusicon').text("-");	
+	// } else{$('.acc1 .plusicon').text("+");}
+
+		    $(".acc1 .plusicon").toggleClass('box_rotate box_transition');
+
 	
 })
 
 $('.acc2').click(function(){
-	var temp = $('.acc2 .plusicon').html();
-	if (temp == '+'){
-		$('.acc2 .plusicon').text("-");	
-	} else{$('.acc2 .plusicon').text("+");}
+	// var temp = $('.acc2 .plusicon').html();
+	// if (temp == '+'){
+	// 	$('.acc2 .plusicon').text("-");	
+	// } else{$('.acc2 .plusicon').text("+");}
+		    $(".acc2 .plusicon").toggleClass('box_rotate box_transition');
 	
 })
 
@@ -81,15 +85,17 @@ $('.acc3').click(function(){
 	// 	$('.acc3 .plusicon').text("-");	
 	// } else{$('.acc3 .plusicon').text("+");}
 
-	$(".acc3 .plusicon").rotate({bind:{
-  		click: function(){
-    $(this).rotate({
-      angle: 0,
-      animateTo:90
-      })
-    }
-  }
-});
-	
+// 	$(".acc3 .plusicon").rotate({bind:{
+//   		click: function(){
+//     $(this).rotate({
+//       angle: 0,
+//       animateTo:90
+//       })
+//     }
+//   }
+// });
+
+	    $(".acc3 .plusicon").toggleClass('box_rotate box_transition');
+
 })
 
