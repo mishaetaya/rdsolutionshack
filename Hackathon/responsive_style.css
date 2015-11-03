@@ -11,28 +11,28 @@
 }
 
 header{
-	background-size: 80% 70%;
-	height:1000px;
+	background-size: 100% 40%;
+	height:1800px;
 	position:relative;
 	top:-10px;
 	margin-top:0;
-	/*border:1px solid yellow;*/	
+	border:none;	
 }
 
 header h1{
 	position:relative;
 	top:0px;
-	font-size:5em;
+	font-size:7em;
 }
 
 header h2{
 	position:relative;
-	top:600px;
+	top:800px;
 	font-size:3em;	
 }
 
 .description .container{
-	margin-top:-180px;
+	margin-top:-600px;
 	width:70%;
 	font-size: 5em;
 	margin-bottom:-20px;
@@ -98,9 +98,9 @@ header h2{
 .topicContainer p{
 	
 	font-size: 3em;
-/*	text-align: justify;*/
+	text-align: justify;
 	width: 90%;
-	line-height: 50px;
+	line-height: 100px;
 	/*margin:10px auto;*/
 }
 
