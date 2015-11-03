@@ -101,8 +101,8 @@ header h2{
 	text-align: justify;
 	width: 90%;
 	line-height: 100px;
-	/*margin:10px auto;*/
-}
+/*	margin:0px auto;
+*/}
 
 .topicSelection_1, .topicSelection_2, .topicSelection_3{
 	width:600px;

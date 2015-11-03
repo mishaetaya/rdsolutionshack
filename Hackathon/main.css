@@ -23,7 +23,7 @@ header{
 	background-image: url('HiRes.jpg');
 	background-repeat: no-repeat;
 	background-size: cover;
-	background-size: 50% 75%;
+	background-size: 50% 70%;
 	height:600px;
 	border-bottom:1px solid gray;
 	margin-bottom:2%;
@@ -109,19 +109,20 @@ header h2 span a{
 
 .topicContainer h3{
 	text-align: center;
-	font-size: 14px;
+	font-size: 18px;
 	color: #007398;
 	line-height: 25px;
-	margin-bottom:-5px;
+	margin-bottom:30px;
 
 }
 
 .topicContainer p{
 	color:gray;
-	font-size: 12px;
+	font-size: 14px;
 	text-align: justify;
 	width: 90%;
 	margin:10px auto;
+	line-height: 20px;
 }
 
 .topicSelection_1, .topicSelection_2, .topicSelection_3{
