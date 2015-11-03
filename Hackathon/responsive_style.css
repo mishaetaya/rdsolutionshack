@@ -58,12 +58,12 @@ header h2{
 }
 
 .topics h2, .topics h3{
-	font-size: 3em;
+	font-size: 4em;
 	line-height: 80px;
 }
 
 .topics h3{
-	font-size: 2em;
+	font-size: 3em;
 }
 /*
 .topics h3{
