@@ -90,7 +90,7 @@ header h2{
 .topicContainer h3{
 	text-align: center;
 	font-size: 4em;
-	line-height: 50px;
+	line-height: 90px;
 	margin-bottom:50px;
 }
 
@@ -98,8 +98,9 @@ header h2{
 .topicContainer p{
 	
 	font-size: 3em;
-	text-align: justify;
+/*	text-align: justify;*/
 	width: 90%;
+	line-height: 50px;
 	/*margin:10px auto;*/
 }
 
