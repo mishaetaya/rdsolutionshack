@@ -23,7 +23,7 @@ header{
 	background-image: url('HiRes.jpg');
 	background-repeat: no-repeat;
 	background-size: cover;
-	background-size: 50% 70%;
+	background-size: 40% 70%;
 	height:600px;
 	border-bottom:1px solid gray;
 	margin-bottom:2%;
@@ -36,17 +36,29 @@ header h1{
 	color:#e9711c;
 }
 
-header h2{
+header .subheader h2{
 	position:relative;
-	top:490px;
+	top:450px;
 	color:#007398;
 }
 
-header h2 span a{
-	text-decoration: none;
-	color:#007398;
+header .subheader h3{
+	position:relative;
+	top:450px;
+	color:#007398;	
 	font-style: italic;
 }
+
+header .subheader h3 span{
+	border-bottom: 1px solid red;
+}
+
+header .subheader h3 span a {
+	text-decoration: none;
+	color:#007398;
+}
+
+
 
 .description{
 /*	border:1px solid red;
@@ -98,7 +110,7 @@ header h2 span a{
 }
 
 .topicContainer{
-	width:32%;
+	width:49%;
 	display:inline-block;
 /*	border:1px solid blue;
 */	position:relative;
@@ -125,7 +137,7 @@ header h2 span a{
 	line-height: 20px;
 }
 
-.topicSelection_1, .topicSelection_2, .topicSelection_3{
+.topicSelection_1, .topicSelection_2, .topicSelection_3, .topicSelection_4{
 	width:200px;
 	height:200px;
 	border-radius: 100px;
@@ -134,33 +146,43 @@ header h2 span a{
 	color:white;	
 }
 
-.topicSelection_1:hover, .topicSelection_2:hover, .topicSelection_3:hover{
+.topicSelection_1:hover, .topicSelection_2:hover, .topicSelection_3:hover, .topicSelection_4:hover{
 	border:2px solid #e9711c;
 /*	background-color:rgba(255,180,0,0.2);
 */}
 
 .topicSelection_1{
-	background-image: url('community.png');
+	background-image: url('community.jpg');
 	background-position: center;
-	background-size:60% 60%;
+	background-size:150% 100%;
 	background-repeat: no-repeat;
 }
 
 .topicSelection_2{
-	background-image: url('launch.png');
+/*	background-image: url('http://static.tumblr.com/lzishq0/GeZm987jp/rh.logo.icon.png');
+*/	
+	background-image: url('talent.jpg');
 	background-position: center;
-	background-size:60% 60%;
+	background-size:100% 100%;
 	background-repeat: no-repeat;
 }
 
 .topicSelection_3{
 	background-image: url('iot.jpg');
 	background-position: center;
-	background-size:100% 60%;
+	background-size:100% 100%;
 	background-repeat: no-repeat;
 }
 
-.submission{
+.topicSelection_4{
+/*	background-image: url('http://www.pmlive.com/__data/assets/image/0006/272949/like-pill.jpg');*/
+	background-image: url('socialmedia.jpg');
+	background-position: center;
+	background-size:100% 100%;
+	background-repeat: no-repeat;
+}
+
+#submission{
 	border-top:1px solid gray;
 	text-align: center;
 	margin-bottom:2%;
@@ -168,7 +190,7 @@ header h2 span a{
 	margin-top:2%;
 }
 
-.submission h2{
+#submission h2{
 		margin-top:5%;
 
 }

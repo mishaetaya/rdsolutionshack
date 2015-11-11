@@ -11,8 +11,8 @@
 }
 
 header{
-	background-size: 100% 40%;
-	height:1800px;
+	background-size: 90% 40%;
+	height:1500px;
 	position:relative;
 	top:-10px;
 	margin-top:0;
@@ -25,14 +25,26 @@ header h1{
 	font-size:7em;
 }
 
-header h2{
+header .subheader h2{
 	position:relative;
-	top:800px;
-	font-size:3em;	
+	top:650px;
+	font-size: 5em;
+}
+
+header .subheader h3{
+	position:relative;
+	top:600px;
+	font-size: 3em;
+
+}
+
+
+
+
 }
 
 .description .container{
-	margin-top:-600px;
+	margin-top:-300px;
 	width:70%;
 	font-size: 5em;
 	margin-bottom:-20px;
@@ -104,7 +116,7 @@ header h2{
 /*	margin:0px auto;
 */}
 
-.topicSelection_1, .topicSelection_2, .topicSelection_3{
+.topicSelection_1, .topicSelection_2, .topicSelection_3, .topicSelection_4{
 	width:600px;
 	height:600px;
 	border-radius: 300px;

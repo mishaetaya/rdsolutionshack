@@ -28,7 +28,11 @@
 			
 	<header>
 		<h1>Inaugural R&D Solutions Hackathon! </h1>
-		<h2>Are you up for it? <span> <a href='#'>Learn More below</a> </span> </h2>
+
+		<div class="subheader">
+			<h2>Are you up for it? </h2>
+			<h3> Learn More below ... or <span> <a href='#submission'> Sign Up </a> </span> </h3>
+		</div>
 	</header>
 
 	<section class="description">
@@ -121,7 +125,7 @@
 	
 	<section class="topics">
 
-		<h2>The Hackathon will focus on the below three topics</h2>
+		<h2>The Hackathon will focus on the below four topics</h2>
 		<h3>Choose one topic </h3>
 		
 		<div class="topicContainer">
@@ -136,10 +140,10 @@
 		<div class="topicContainer">
 			<div class="topicSelection_2">
 			</div>
-			<h3>Safety Challenges in the Chemicals Industry</h3>
-			<p>Build the next generation Big Data solution for the Chemicals industry.  Our product and markting teams have spent several months speaking with Chemicals executives, scientists and engineers to identify their biggest pain points.  Now, we need to take what we learned and solve for those challenges. <br> <br> 
+			<h3>Attracting the best talent in a tech savvy world</h3> 
+			<p>We're doing a lot of cutting edge work at Elsevier on topics of Big Data, Drug Discovery, Natural Language Processing, Data Mapping and many more topics. Problem is...not enough people know this. <br> <br> 
 
-			<span style="font-weight:bold"> Can you prototype a user experience that addresses the Chemicals companies Big Data challenges?</span></p>
+			<span style="font-weight:bold"> Can you create a viral marketing campaign to jump start awareness in the millenial community or a tool that helps us engage young technologists, marketers and product developers in a unique and fun way?</span></p>
 		</div>
 
 		<div class="topicContainer">
@@ -153,36 +157,49 @@
 
 		</div>
 
+		<div class="topicContainer">
+			<div class="topicSelection_4">
+			</div>
+			<h3>Social Media in Pharmaceutical Industry</h3>
+			<p>Drug safety is a priority use case for Elsevier - we help Pharma companies monitor adverse events of drugs in published literature.  However social media presents a much bigger pool of data that Pharma companies haven't learned how to deal with yet. <br> <br>
+
+			<span style="font-weight:bold"> Can you define a use case for how pharmaceutical companies might use social media data to monitor drug safety, and prototype a quick app?</span></p>
+
+
+		</div>
+
+	
+
 	</section>
 
 
 
-	<section class="submission">
+	<section id="submission">
 
 		<h2>Are you ready to channel your inner MacGyver? </h2>
 		<h3>			Sign up below</h3>
-		<form action="action_page.php">
-		  First name:<br>
-		  <input type="text" name="firstname" >
+		<form action="form.php">
+		  Name:<br>
+		  <input type="text" id="name" >
 		  <br><br>
 		  
-		  Last name:<br>
-		  <input type="text" name="lastname" >
-		  <br><br>
-
 		  Email:<br>
-		  <input type="text" name="email" >
+		  <input type="text" id="email" >
 		  <br><br>
 
-		  Module of interest (Awareness, Chemicals Solution, or IoT):<br>
-		  <input type="text" name="module" >
+		  Linkedin Profile Link:<br>
+		  <input type="text" id="linkedin" >
+		  <br><br>
+
+		  Module of interest (Awareness, Talent, IoT, or Social Media):<br>
+		  <input type="text" id="module" >
 		  <br><br>
 
 		  Briefly tell us what you hope to achieve out of this experience? <br>
-		  <textarea name="Rationale" COLS=30 ROWS=10> </textarea>
+		  <textarea id="messagerationale" name="rationale" COLS=30 ROWS=10> </textarea>
 		  <br><br>
 
-		  <input type="submit" value="Submit">
+		  <input type="submit" id="formsubmit" value="Submit">
 		</form> 
 		
 	</section>
@@ -195,6 +212,7 @@
 	
 	<script src='accordion.js'></script>
 <!--	<script src='rotate.js'></script> -->
+	<script src='scolling.js'></script>
 
 </body>
 

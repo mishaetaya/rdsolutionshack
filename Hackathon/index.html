@@ -10,6 +10,8 @@
 		
 		<link rel="stylesheet" href="accordion.css">
 		<link rel="stylesheet" href="main.css">
+		<link rel="stylesheet" href="responsive_style.css">
+
  		
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 
@@ -26,7 +28,11 @@
 			
 	<header>
 		<h1>Inaugural R&D Solutions Hackathon! </h1>
-		<h2>Are you up for it? <span> <a href='#'>Learn More below</a> </span> </h2>
+
+		<div class="subheader">
+			<h2>Are you up for it? </h2>
+			<h3> Learn More below ... or <span> <a href='#submission'> Sign Up </a> </span> </h3>
+		</div>
 	</header>
 
 	<section class="description">
@@ -67,7 +73,7 @@
           <div class="accordion">
             <dl>
               <dt>
-                <a href="#accordion1" aria-expanded="false" aria-controls="accordion1" class="accordion-title accordionTitle js-accordionTrigger acc1"><span class="plusicon">+</span>What is it?</a>
+                <a href="#accordion1" aria-expanded="false" aria-controls="accordion1" class="accordion-title accordionTitle js-accordionTrigger acc1"><span class="plusicon">></span>What is it?</a>
               </dt>
               <dd class="accordion-content accordionItem is-collapsed" id="accordion1" aria-hidden="true">
 		            <p>A four day hackathon to prototype ideas for some of Elsevier's biggest challenges.
@@ -86,7 +92,7 @@
 
               </dd>
               <dt>
-                <a href="#accordion2" aria-expanded="false" aria-controls="accordion2" class="accordion-title accordionTitle js-accordionTrigger acc2"><span class="plusicon">+</span>
+                <a href="#accordion2" aria-expanded="false" aria-controls="accordion2" class="accordion-title accordionTitle js-accordionTrigger acc2"><span class="plusicon"> > </span>
                   What's in it for you?</a>
               </dt>
               <dd class="accordion-content accordionItem is-collapsed" id="accordion2" aria-hidden="true">
@@ -100,13 +106,13 @@
 			</ul>
               </dd>
               <dt>
-                <a href="#accordion3" aria-expanded="false" aria-controls="accordion3" class="accordion-title accordionTitle js-accordionTrigger acc3"> <span class="plusicon">+</span>
+                <a href="#accordion3" aria-expanded="false" aria-controls="accordion3" class="accordion-title accordionTitle js-accordionTrigger acc3"> <span class="plusicon"> > </span>
                   When is this happening?
                 </a>
               </dt>
               <dd class="accordion-content accordionItem is-collapsed" id="accordion3" aria-hidden="true">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi eu interdum diam. Donec interdum porttitor risus non bibendum. Maecenas sollicitudin eros in quam imperdiet placerat. Cras justo purus, rhoncus nec lobortis ut, iaculis vel ipsum. Donec dignissim arcu nec elit faucibus condimentum. Donec facilisis consectetur enim sit amet varius. Pellentesque justo dui, sodales quis luctus a, iaculis eget mauris. </p>
-                <p>Aliquam dapibus, ante quis fringilla feugiat, mauris risus condimentum massa, at elementum libero quam ac ligula. Pellentesque at rhoncus dolor. Duis porttitor nibh ut lobortis aliquam. Nullam eu dolor venenatis mauris placerat tristique eget id dolor. Quisque blandit adipiscing erat vitae dapibus. Nulla aliquam magna nec elementum tincidunt.</p>
+                <p>The event will be held on January XX, 2016 at Elsevier's Knovel office on 37th street and 7th Avenue</p>
+                
               </dd>
 
             </dl>
@@ -119,14 +125,14 @@
 	
 	<section class="topics">
 
-		<h2>The Hackathon will focus on the below three topics</h2>
-		<h3>You can only choose one topic to work </h3>
+		<h2>The Hackathon will focus on the below four topics</h2>
+		<h3>Choose one topic </h3>
 		
 		<div class="topicContainer">
 			<div class="topicSelection_1">
 			</div>
 			<h3>Awareness in the Academic Community</h3>
-			<p>Help us drastically increase awareness of Elsevier R&D tools in the Academic community.  We are on a journey to improve how research is done, but the first step is getting the word out.  <br> <br><br><br>
+			<p>Help us drastically increase awareness of Elsevier R&D tools in the Academic community.  We are on a journey to improve how research is done, but the first step is getting the word out.  <br> <br>
 
 			<span style="font-weight:bold">	What would you do to make sure every professor, student and researcher knows who we are, what we do and thinks of us first when they need research help?</span></p>
 		</div>
@@ -134,53 +140,66 @@
 		<div class="topicContainer">
 			<div class="topicSelection_2">
 			</div>
-			<h3>Safety Challenges in the Chemicals Industry</h3>
-			<p>Build the next generation Big Data solution for the Chemicals industry.  Our product and markting teams have spent several months speaking with Chemicals executives, scientists and engineers to identify their biggest pain points.  Now, we need to take what we learned and solve for those challenges. <br> <br> 
+			<h3>Attracting the best talent in a tech savvy world</h3> 
+			<p>We're doing a lot of cutting edge work at Elsevier on topics of Big Data, Drug Discovery, Natural Language Processing, Data Mapping and many more topics. Problem is...not enough people know this. <br> <br> 
 
-			<span style="font-weight:bold"> Can you prototype a user experience that addresses the Chemicals companies Big Data challenges?</span></p>
+			<span style="font-weight:bold"> Can you create a viral marketing campaign to jump start awareness in the millenial community or a tool that helps us engage young technologists, marketers and product developers in a unique and fun way?</span></p>
 		</div>
 
 		<div class="topicContainer">
 			<div class="topicSelection_3">
 			</div>
 			<h3>Scientific Information for the Internet of Things</h3>
-			<p>Inter of Things is the latest buzz ... so much as Big Data is getting jealous.  Elsevier is the biggest scientific publisher of data across many disciplines, and we have databases of data easily accessibly API's, and it can have a huge impact on how real world data is interpreted <br> <br>
+			<p>Internet of Things is the latest buzz ... even Big Data is getting jealous.  Elsevier is the biggest scientific publisher of data across many disciplines, and we have databases of data easily accessibly API's, and it can have a huge impact on how real world data is interpreted <br> <br>
 
 			<span style="font-weight:bold"> Can you define a use case for scientific data, and prototype a user experience for a customer in either the Chemicals, Pharma or Oil & Gas industry?</span></p>
 
 
 		</div>
 
+		<div class="topicContainer">
+			<div class="topicSelection_4">
+			</div>
+			<h3>Social Media in Pharmaceutical Industry</h3>
+			<p>Drug safety is a priority use case for Elsevier - we help Pharma companies monitor adverse events of drugs in published literature.  However social media presents a much bigger pool of data that Pharma companies haven't learned how to deal with yet. <br> <br>
+
+			<span style="font-weight:bold"> Can you define a use case for how pharmaceutical companies might use social media data to monitor drug safety, and prototype a quick app?</span></p>
+
+
+		</div>
+
+	
+
 	</section>
 
 
 
-	<section class="submission">
+	<section id="submission">
 
 		<h2>Are you ready to channel your inner MacGyver? </h2>
 		<h3>			Sign up below</h3>
-		<form action="action_page.php">
-		  First name:<br>
-		  <input type="text" name="firstname" >
+		<form action="form.php">
+		  Name:<br>
+		  <input type="text" id="name" >
 		  <br><br>
 		  
-		  Last name:<br>
-		  <input type="text" name="lastname" >
-		  <br><br>
-
 		  Email:<br>
-		  <input type="text" name="email" >
+		  <input type="text" id="email" >
 		  <br><br>
 
-		  Module of interest (Awareness, Chemicals Solution, or IoT):<br>
-		  <input type="text" name="module" >
+		  Linkedin Profile Link:<br>
+		  <input type="text" id="linkedin" >
+		  <br><br>
+
+		  Module of interest (Awareness, Talent, IoT, or Social Media):<br>
+		  <input type="text" id="module" >
 		  <br><br>
 
 		  Briefly tell us what you hope to achieve out of this experience? <br>
-		  <textarea name="Rationale" COLS=30 ROWS=10> </textarea>
+		  <textarea id="messagerationale" name="rationale" COLS=30 ROWS=10> </textarea>
 		  <br><br>
 
-		  <input type="submit" value="Submit">
+		  <input type="submit" id="formsubmit" value="Submit">
 		</form> 
 		
 	</section>
@@ -191,7 +210,10 @@
 		</div>
 
 	
-	<script src='js/accordion.js'></script>
+	<script src='accordion.js'></script>
+<!--	<script src='rotate.js'></script> -->
+	<script src='scolling.js'></script>
+
 </body>
 
 
