@@ -122,26 +122,34 @@ header .subheader h3{
 	border-radius: 300px;
 }
 
-.submission{
+#submission{
 	border-top:1px solid gray;
 	text-align: center;
 	margin-bottom:5%;
 	color:#007398;
 	margin-top:10%;
+}
+
+#submission h2{
+	margin-top:5%;
 	font-size: 2em;
 }
 
-.submission h2{
-	margin-top:5%;
+#submission h3{
+	font-size: 1em;
+	margin-bottom: 10%;
 }
 
-	
+#submission form{
+	font-size: 2em;
+}
+
+
 .footerwrap{
 	font-size: 0.3em;
 	height: 20px;
-
-
 }
+
 .footerwrap p{
 	text-align: center;
 	position:relative;
