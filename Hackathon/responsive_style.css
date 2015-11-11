@@ -38,10 +38,6 @@ header .subheader h3{
 
 }
 
-.container{
-
-
-}
 
 .description .container{
 	margin-top:-300px;
@@ -103,7 +99,7 @@ header .subheader h3{
 	text-align: center;
 	font-size: 4em;
 	line-height: 90px;
-	margin-bottom:50px;
+	margin-bottom:70px;
 }
 
 
@@ -120,6 +116,7 @@ header .subheader h3{
 	width:600px;
 	height:600px;
 	border-radius: 300px;
+	margin-bottom:100px;
 }
 
 #submission{
