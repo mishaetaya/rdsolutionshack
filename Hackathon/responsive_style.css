@@ -49,12 +49,19 @@ header .subheader h3{
 .accordionTitle,
 .accordion__Heading{
 	font-size: 0.7em;
+	text-align: center;
 /*	height:20px;
 */}
 
-.plusicon{
+/*.plusicon{
 	font-size: 0em;
-}
+	text-align: right;
+	position:relative;
+	left:100%;
+
+}*/
+
+
 
 .container p, .container ul{
 	font-size: 0.5em;
@@ -133,7 +140,7 @@ header .subheader h3{
 }
 
 #submission h3{
-	font-size: em;
+	font-size: 2em;
 	margin-bottom: 10%;
 }
 
